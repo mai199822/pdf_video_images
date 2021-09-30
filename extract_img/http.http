@@ -1,0 +1,18 @@
+POST https://v2.convertapi.com/convert/pdf/to/extract-images?Secret=yrOws1JZZ40ZKCqn
+Content-Type: application/json
+ 
+{
+    "Parameters": [
+        {
+            "Name": "File",
+            "FileValue": {
+                "Name": "test.pdf",
+                "Data": "<Base64 encoded file content>"
+            }
+        },
+        {
+            "Name": "StoreFile",
+            "Value": true
+        }
+    ]
+}
